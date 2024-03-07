@@ -321,7 +321,8 @@
           "bierner.markdown-preview-github-styles",
           "visualstudioexptteam.vscodeintellicode",
           "bierner.markdown-preview-github-styles",
-          "ms-kubernetes-tools.vscode-kubernetes-tools"
+          "ms-kubernetes-tools.vscode-kubernetes-tools",
+          "ms-vscode.azurecli"
         ]
       }
     }
