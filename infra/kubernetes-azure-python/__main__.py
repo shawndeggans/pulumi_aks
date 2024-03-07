@@ -54,7 +54,7 @@ subnet3 = network.Subnet(
 # Create an Azure Kubernetes Service cluster
 managed_cluster = containerservice.ManagedCluster(
     "managed_cluster",
-    tags = {"Budget": "Gnllc"},
+    tags = {"Budget": "Gnllc", "aks-managed-cluster-rg": "555"},
     aad_profile=containerservice.ManagedClusterAADProfileArgs(
         enable_azure_rbac=True,
         managed=True,
