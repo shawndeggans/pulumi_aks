@@ -10,7 +10,8 @@
     "shutdownAction": "stopContainer",
     "securityOpt": ["seccomp=unconfined"],
     "features": {
-      "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+      "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+      "ghcr.io/devcontainers/features/azure-cli:1": {}
     },
     "mounts": ["source=dind-var-lib-docker,target=/var/lib/docker,type=volume"],
     "postCreateCommand": "devcontainer-links",
@@ -321,7 +322,8 @@
           "bierner.markdown-preview-github-styles",
           "visualstudioexptteam.vscodeintellicode",
           "bierner.markdown-preview-github-styles",
-          "ms-kubernetes-tools.vscode-kubernetes-tools"
+          "ms-kubernetes-tools.vscode-kubernetes-tools",
+          "ms-vscode.azurecli"
         ]
       }
     }
