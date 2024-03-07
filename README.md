@@ -42,3 +42,9 @@ I just tried this and discovered I don't have the AZ CLI installed. So I'll inst
 ```
 "ms-vscode.azurecli"
 ```
+
+And I need to add it to the container features, like this:
+
+```
+"ghcr.io/devcontainers/features/azure-cli:1": {}
+```
